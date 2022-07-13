@@ -1,0 +1,2 @@
+def site():
+    return None

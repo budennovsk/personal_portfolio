@@ -1,0 +1,23 @@
+
+body {
+   background: #000000;
+   color: #fff;
+}
+
+.admin-panel {
+    border: 1px solid #999;
+    border-radius: 10px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    opacity: 0.6;
+    padding: 15px;
+}
+
+
+p {
+text-indent: 25px;
+
+}
+
+

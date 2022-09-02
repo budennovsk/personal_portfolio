@@ -25,13 +25,12 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-3">
+            <ul class="navbar-nav mb-2 mb-lg-3">
 
 
                 <li class="nav-item">
                     <a class="navbar-brand" href="{% url 'home' %}">
-                        <img src="{% static 'portfolio/zicode.png' %}" class="position-absolute top-0 end-0"
-                             alt="Zicode" style="height: 50px;">
+                        <img src="{% static 'portfolio/zicode.png' %}" alt="Zicode" style="height: 50px;">
                     </a>
                 </li>
 
@@ -85,6 +84,32 @@
 </div>
 {% endblock %}
 
+{% block content_todo %}
+{% if user.is_authenticated %}
+
+
+Зарегестрированный пользователь {{ user.username }}
+
+<a href="{% url 'createtodo' %}">Create</a>
+<a href="{% url 'currenttodos' %}">Current</a>
+<a href="{% url 'completedtodos' %}">Completed</a>
+
+
+
+<form action="{% url 'logoutuserr' %}" method="POST">
+{% csrf_token %}
+
+<button type="submit">Logout</button>
+</form>
+
+{% else %}
+<a href="{% url 'signupuser' %}">Зарегестириуйтесь</a>
+<a href="{% url 'loginuser' %}">Войти</a>
+
+{% endif %}
+<br>
+<br>
+{% endblock %}
 
 <!-- Optional JavaScript; choose one of the two! -->
 

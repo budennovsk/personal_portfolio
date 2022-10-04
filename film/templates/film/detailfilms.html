@@ -1,0 +1,41 @@
+{% extends 'portfolio/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% block content_film %}
+<div class="col-md-55 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-6">First name:</div>
+
+            <div class="col-6">Last name:</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            {% for actor in actors %}
+
+            <div class="col-6">
+                <h2> {{ actor.first_name }}</h2>
+            </div>
+            <div class="col-6">
+                <h2> {{ actor.last_name }}</h2>
+
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,29 @@
+{% extends 'portfolio/base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+{% block content_film %}
+<div class="col-md-55 text-center">
+    {% for fil in films %}
+    <a href="{{ fil.get_absolute_url }}">
+        <h2> Name films: {{ fil.film }}</h2>
+        <br>
+        <h3> Raiting films: {{ fil.raiting }}</h3>
+        <h2> Date created: {{ fil.created }}</h2>
+
+    </a>
+    {% endfor %}
+
+
+</body>
+</html>
+
+{% endblock %}
+
+

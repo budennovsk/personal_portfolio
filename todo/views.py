@@ -39,7 +39,7 @@ def currenttodos(request):
 
 
 def home(request):
-    return render(request, 'todo/home.html')
+    return render(request, 'portfolio/home.html')
 
 
 def loginuser(request):

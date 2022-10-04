@@ -24,11 +24,12 @@ from portfolio import views
 
 
 urlpatterns = [
-    path('', views.home, name='home'),
+    path('', views.home, name='homeporfolio'),
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
     path('about/', include('about.urls')),
     path('todo/', include('todo.urls')),
+    path('film/', include('film.urls')),
 
 ]
 

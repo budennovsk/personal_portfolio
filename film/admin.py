@@ -5,6 +5,7 @@ from .models import *
 class FilmAdmin(admin.ModelAdmin):
     list_display = ('id', 'film', 'raiting')
     prepopulated_fields = {"slug": ("film",)}
+    filter_horizontal = ['actors']
 
 class ActorAdmin(admin.ModelAdmin):
     list_display = ('id', 'first_name', 'last_name')

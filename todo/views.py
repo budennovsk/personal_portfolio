@@ -34,7 +34,7 @@ def logoutuserr(request):
 
 @login_required
 def currenttodos(request):
-    todos = Todo.objects.filter(user=request.user, datecompleted__isnull = True)
+    todos = Todo.objects.select_related('user').filter(user=request.user, datecompleted__isnull = True)
     return render(request, 'todo/currenttodos.html', {'todos':todos})
 
 

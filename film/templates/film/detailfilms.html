@@ -1,11 +1,4 @@
 {% extends 'portfolio/base.html' %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
 {% block content_film %}
 <div class="col-md-55 text-center">
@@ -20,7 +13,7 @@
     <div class="container">
         <div class="row">
 
-            {% for actor in posts.actors.all %}
+            {% for actor in posts.actors %}
 
             <div class="col-6">
                 <h2> {{ actor.first_name }}</h2>
@@ -35,6 +28,20 @@
     </div>
 </div>
 
+
+{% for i in actors %}
+
+            <div class="col-6">
+                <h2> {% for j in i.actors.all %}</h2>
+            </div>
+            <div class="col-6">
+                {{ j.last_name }}
+                {{ j.first_name }}
+
+
+            </div>
+{% endfor %}
+            {% endfor %}
 
 {% endblock %}
 </body>

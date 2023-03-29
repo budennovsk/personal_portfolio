@@ -4,8 +4,8 @@ from django.shortcuts import reverse
 
 
 class Actor(models.Model):
-    first_name = models.CharField("Имя", blank=True, max_length=100)
-    last_name = models.CharField("Фамилия", blank=True, max_length=100)
+    first_name = models.CharField(blank=True, max_length=100)
+    last_name = models.CharField(blank=True, max_length=100)
 
     def __str__(self):
         return self.first_name

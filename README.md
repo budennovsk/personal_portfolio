@@ -1,5 +1,6 @@
 
-<h3>Домашняя страница с описанием сылками на мои репозиторий, резюме, блогом дел, списком фильмов и органайзером</h3>
+<h3>Домашняя страница с описанием, ссылками на мой репозиторий, резюме, блогом дел, телеграмом, списком фильмов и органайзером</h3>
+
 <img src="https://user-images.githubusercontent.com/97764479/236861018-f385569e-e978-444e-9f97-31513401b712.png" width=30% height=30%>
 <br>
 <h3>Личный блог</h3>
@@ -24,7 +25,7 @@
 
 <br>
 
-<h3>Вход в органайзер</h3>
+<h3>Вход в органайзер (ForeignKey)</h3>
 
 <img src="https://user-images.githubusercontent.com/97764479/236865156-edfd682e-693c-4264-ba35-7a625edb6f03.png" width=30% height=30%>
 <br>
@@ -39,12 +40,3 @@
 <br>
 
 
-
-
-<h3>API для парса</h3>
-<br>
-https://api.apilayer.com
-<br>
-https://api.api-ninjas.com
-<br>
-https://api.weather.yandex.ru

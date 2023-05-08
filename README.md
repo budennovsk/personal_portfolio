@@ -38,12 +38,12 @@
 <br>
 <h3>Текущий список дел</h3>
 
-<img src="https://user-images.githubusercontent.com/97764479/236865392-db41fe41-66f5-4a10-9f1c-afda7a550f53.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/97764479/236865392-db41fe41-66f5-4a10-9f1c-afda7a550f53.png" width=50% height=50%>
 <br>
 
 <h3>Выполненые задачи</h3>
 
-<img src="https://user-images.githubusercontent.com/97764479/236865859-1c31d9cc-ae58-4b08-ac3b-31309898a0df.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/97764479/236865859-1c31d9cc-ae58-4b08-ac3b-31309898a0df.png" width=50% height=50%>
 <br>
 
 

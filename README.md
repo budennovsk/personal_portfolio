@@ -8,7 +8,7 @@
 <li><h3>списком фильмов и органайзером</h3></li>
 </ul>
 
-<img src="https://user-images.githubusercontent.com/97764479/236861018-f385569e-e978-444e-9f97-31513401b712.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/97764479/236861018-f385569e-e978-444e-9f97-31513401b712.png" width=100% height=1000%>
 <br>
 <h3>Личный блог</h3>
 <img src="https://user-images.githubusercontent.com/97764479/236863729-879c35b3-4cc6-488c-b9af-ff667d04da63.png" width=50% height=50%>

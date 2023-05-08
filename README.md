@@ -19,7 +19,7 @@
 <br>
 <h3>About</h3>
 
-<img src="https://user-images.githubusercontent.com/97764479/236864434-47d875d9-1179-4e04-9458-48b0d0ec2ae1.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/97764479/236864434-47d875d9-1179-4e04-9458-48b0d0ec2ae1.png" width=50% height=50%>
 <br>
 <h3>Пагинация</h3>
 

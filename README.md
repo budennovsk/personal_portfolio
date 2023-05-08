@@ -15,7 +15,13 @@
 <br>
 <h3>Пагинация</h3>
 
-<img src="https://user-images.githubusercontent.com/97764479/236864604-8766bf11-f543-4546-b6e8-38d6fbadacf3.png" width=30% height=30%>
+<img src="https://user-images.githubusercontent.com/97764479/236866752-e68bae1a-c6bf-47a7-85d2-0ed2e66f0858.png" width=30% height=30%>
+
+<h3>Динамический поиск в блоке дел</h3>
+
+<img src="https://user-images.githubusercontent.com/97764479/236866150-d432917b-dd56-45c8-a01f-706f9a20926d.png" width=30% height=30%>
+<br>
+
 <br>
 
 <h3>Вход в органайзер</h3>

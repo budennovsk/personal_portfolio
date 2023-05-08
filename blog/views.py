@@ -5,7 +5,8 @@ from .models import Blog
 from django.db.models import Q
 
 
-def all_blogs(request):
+def all_blogs(request: render) -> render:
+    """Пагинация"""
     search_query = request.GET.get('search', '')
     if search_query:
         blogs = Blog.objects.filter(Q(title__icontains=search_query) | Q(description__icontains=search_query))
@@ -38,6 +39,7 @@ def all_blogs(request):
     return render(request, 'blog/all_blogs.html', context)
 
 
-def detail(request, blog_id):
+def detail(request: object, blog_id: str) -> render:
+    """Индексация блогов"""
     blog = get_object_or_404(Blog, pk=blog_id)
     return render(request, 'blog/detail.html', {'blog': blog})

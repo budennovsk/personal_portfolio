@@ -40,7 +40,7 @@
 
 <h3>Выполненые задачи</h3>
 
-<img src="https://user-images.githubusercontent.com/97764479/236865859-1c31d9cc-ae58-4b08-ac3b-31309898a0df.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/97764479/236865859-1c31d9cc-ae58-4b08-ac3b-31309898a0df.png" width=100% height=100%>
 <br>
 
 
